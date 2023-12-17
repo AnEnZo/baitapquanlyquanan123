@@ -16,5 +16,21 @@ namespace ChucNangDangNhap
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {   
+            Form2 f = new Form2();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void btndangky_Click(object sender, EventArgs e)
+        {   
+            fdangky f = new fdangky();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
